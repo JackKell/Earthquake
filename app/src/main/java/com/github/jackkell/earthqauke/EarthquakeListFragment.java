@@ -1,14 +1,16 @@
 package com.github.jackkell.earthqauke;
 
+
 import android.app.ListFragment;
 import android.location.Location;
 import android.net.ParseException;
 import android.os.Bundle;
 import android.os.Handler;
-import android.sax.Element;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -45,7 +47,8 @@ public class EarthquakeListFragment extends ListFragment {
     private static final String TAG = "EARTHQUAKE";
     private Handler handler = new Handler();
     public void refreshEarthquakes() {
-    // Get the XML URL url;
+    // Get the XML
+        URL url;
         try { String quakeFeed = getString(R.string.quake_feed);
             url = new URL(quakeFeed);
             URLConnection connection; connection = url.openConnection();
@@ -56,19 +59,18 @@ public class EarthquakeListFragment extends ListFragment {
                 InputStream in = httpConnection.getInputStream();
                 DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
                 DocumentBuilder db = dbf.newDocumentBuilder();
-                // Parse the earthquake feed. Document
-                dom = db.parse(in);
+                // Parse the earthquake feed.
+                Document dom = db.parse(in);
                 Element docEle = dom.getDocumentElement();
                 // Clear the old earthquakes
                 earthquakes.clear();
                 // Get a list of each earthquake entry.
                 NodeList nl = docEle.getElementsByTagName("entry");
                 if (nl != null && nl.getLength() > 0) {
-                    for (int i = 0 ; i < nl.getLength(); i + +)
-                    {
+                    for (int i = 0 ; i < nl.getLength(); i ++) {
                         Element entry = (Element) nl.item( i);
-                        Element title = (Element) entry.getElementsByTagName("title"). item( 0);
-                        Element g = (Element) entry.getElementsByTagName("georss:point"). item( 0);
+                        Element title = (Element) entry.getElementsByTagName("title").item( 0);
+                        Element g = (Element) entry.getElementsByTagName("georss:point").item( 0);
                         Element when = (Element) entry.getElementsByTagName("updated"). item( 0); Element link = (Element) entry.getElementsByTagName("link"). item( 0);
                         String details = title.getFirstChild(). getNodeValue();
                         String hostname = "http:// earthquake.usgs.gov";
@@ -82,6 +84,8 @@ public class EarthquakeListFragment extends ListFragment {
                         }
                         catch (ParseException e) {
                             Log.d(TAG, "Date parsing exception.", e);
+                        } catch (java.text.ParseException e) {
+                            e.printStackTrace();
                         }
                         String[] location = point.split(" ");
                         Location l = new Location("dummyGPS");
