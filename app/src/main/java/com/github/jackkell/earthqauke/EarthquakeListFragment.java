@@ -73,7 +73,7 @@ public class EarthquakeListFragment extends ListFragment {
                         Element g = (Element) entry.getElementsByTagName("georss:point").item( 0);
                         Element when = (Element) entry.getElementsByTagName("updated"). item( 0); Element link = (Element) entry.getElementsByTagName("link"). item( 0);
                         String details = title.getFirstChild(). getNodeValue();
-                        String hostname = "http:// earthquake.usgs.gov";
+                        String hostname = "http://earthquake.usgs.gov";
                         String linkString = hostname + link.getAttribute("href");
                         String point = g.getFirstChild(). getNodeValue();
                         String dt = when.getFirstChild(). getNodeValue();
