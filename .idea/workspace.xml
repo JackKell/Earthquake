@@ -19,20 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf55096-88c1-40ce-b51b-4bab7faf36ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeSearchResults.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_earthquake_search_results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_earthquake_search_results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" />
-      <change type="MOVED" beforePath="C:\Users\braolson\Desktop\Earthquake\app\src\main\java\com\github\jackkell\earthqauke\Earthqauke.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/Earthquake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_earthqauke.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_earthqauke.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Earthqauke.iws" />
@@ -74,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EarthquakeListFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EarthquakeListFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.45794392">
+              <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1768#1878#0" expanded="true" />
@@ -130,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Earthquake.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Earthquake.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/Earthquake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11915888">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -2006,7 +1992,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444845640227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished week 5">
+      <created>1445232857427</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1445232857427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2068,7 +2060,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated the gitgnore" />
     <MESSAGE value="Fixed the EarthquakeListFragment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the EarthquakeListFragment" />
+    <MESSAGE value="Finished week 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished week 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2469,24 +2462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1768#1878#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#2063#2223#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8108#8109#0" expanded="true" />
-            <element signature="e#8178#8179#0" expanded="true" />
-            <element signature="e#8218#8219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeSearchResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2521,9 +2496,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/Earthquake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11915888">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/jackkell/earthqauke/EarthquakeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45794392">
+          <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1768#1878#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#2063#2223#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8108#8109#0" expanded="true" />
+            <element signature="e#8178#8179#0" expanded="true" />
+            <element signature="e#8218#8219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
